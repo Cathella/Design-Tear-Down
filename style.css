@@ -52,3 +52,7 @@ li a {
     border-radius: 4px;
     padding: 10% 20%;
 }
+
+.middle_container{
+    /*display: flex;*/
+}
