@@ -50,9 +50,5 @@ li a {
 .topics {
     border: 3px solid #ffffff;
     border-radius: 4px;
-    padding: 10% 20%;
-}
-
-.middle_container{
-    /*display: flex;*/
+    padding: 5px 10px;
 }
