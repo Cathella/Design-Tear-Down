@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #666666;
+    overflow: hidden;
+}
+
+nav {
+    width: 95%;
+    margin: 2% auto;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+.logo img {
+    width: 10em;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item h3 {
+    font-size: 1em;
+}
+
+.menu-item p {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.menu-icons {
+    height: 2.4em;
+}
+
+.topics {
+    border: 3px solid #ffffff;
+    border-radius: 4px;
+    padding: 10% 20%;
+}
