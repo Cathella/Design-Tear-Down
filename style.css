@@ -69,7 +69,6 @@ nav li a {
     right: 37%;
     top: 24%;
     background-color: #ffffff
-    /* color: #fff; */
 }
 
 .middle_container {
@@ -161,16 +160,30 @@ nav li a {
     margin-bottom: 10%;
 }
 
-.article-section{
+.article-section,
+.article-section-2,
+.article-section-3 {
     width: 100%;
     display: flex;
 }
 
-.article-section article{
+.article-section-2,
+.article-section-3 {
+    width: 95%;
+    margin: 3.5% auto;
+}
+
+article {
     margin-top: 5%;
     width: 33%;
     padding: 0 3%;
+    margin-bottom: 4%;
+}
 
+.article-section-2 article,
+.article-section-3 article {
+    margin-top: 0;
+    width: 25%;
 }
 
 .date{
@@ -182,27 +195,68 @@ p.author span{
     font-weight: 700;
 }
 
-.article-section article h2{
+ article h2{
     margin: 10px 0 20px 0;
 }
 
-.article-section article .author{
+article .author{
     margin: 10px 0;
 }
 
-.article-section article .text{
+article .text {
     line-height: 1.8em;
 }
 
-.article-section article .arrow2{
+article .arrow2{
     margin-top: 4em;
     font-size: 1em;
 }
-.arrow2 i{
+.arrow2 i {
     font-size: 2em;
     color: red;
-    margin-bottom: 5em;
 }
 
+.up-loud {
+    background: #444444;
+    text-align: center;
+    border-radius: 2%;
+    padding: 3.5%;
+    width: 50%;
+    max-height: 28em;
+}
 
+.up-loud img {
+    width: 12em;
+}
+
+.up-loud h2 {
+    font-size: 2.2em;
+    text-decoration: underline;
+    margin-top: 1.5%;
+    color: #ffffff;
+}
+
+.up-loud p {
+    margin-top: 3.5%;
+    line-height: 2em;
+    color: #ffffff;
+}
+
+.up-loud a {
+    color: #ffffff;
+}
+
+.explore {
+    margin-top: 8%;
+}
+
+.up-loud a.btn {
+    color: blue;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 1.4% 3%;
+    border-radius: .4em;
+}
+
+/* Handbook styles */
 
