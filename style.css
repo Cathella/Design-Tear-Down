@@ -285,7 +285,8 @@ article .arrow2{
     margin: 2.5% 2% 0 0;
 }
 
-.prof-pic img {
+.prof-pic img,
+.auth-1 img {
     height: 11.5em;
     border: 4px solid red;
     border-radius: 1em;
@@ -298,4 +299,45 @@ article .arrow2{
 
 .prof-content p {
     line-height: 2em;
+}
+
+.other-authors {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.auth-1 {
+    display: flex;
+    justify-content: start;
+    width: 50%;
+    margin-bottom: 8%;
+}
+
+.auth-1 img {
+    height: 3em;
+    border-radius: .4em;
+}
+
+.auth-abt {
+    margin: 0 0 0 2%;
+}
+
+.auth-name {
+    font-weight: 700;
+    margin-bottom: .9em;
+}
+
+.auth-name a {
+    margin-right: .7%;
+}
+
+.auth-abt h3 {
+    font-size: 1.6em;
+    margin-bottom: .8em;
+}
+
+.auth-abt p {
+    line-height: 1.8em;
 }
