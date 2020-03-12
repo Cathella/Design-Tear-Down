@@ -160,3 +160,49 @@ nav li a {
     margin-left: .5em;
     margin-bottom: 10%;
 }
+
+.article-section{
+    width: 100%;
+    display: flex;
+}
+
+.article-section article{
+    margin-top: 5%;
+    width: 33%;
+    padding: 0 3%;
+
+}
+
+.date{
+    margin: 5px 0;
+}
+
+p.author span{
+    margin-left: 1%;
+    font-weight: 700;
+}
+
+.article-section article h2{
+    margin: 10px 0 20px 0;
+}
+
+.article-section article .author{
+    margin: 10px 0;
+}
+
+.article-section article .text{
+    line-height: 1.8em;
+}
+
+.article-section article .arrow2{
+    margin-top: 4em;
+    font-size: 1em;
+}
+.arrow2 i{
+    font-size: 2em;
+    color: red;
+    margin-bottom: 5em;
+}
+
+
+
