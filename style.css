@@ -259,4 +259,71 @@ article .arrow2{
 }
 
 /* Handbook styles */
+.hand-book{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: gainsboro;
+    padding-top: 3em;
+    
+}
+.hand-book .date{
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 2em 0;
+    color: #fff;
+    
+}
+.hand-book h2 a{
+    font-size: 2em;
+    color:#fff;
+    margin-bottom: 0.5em;
 
+}
+
+.hand-book h2.patterns{
+    font-size: 3em;
+    color: #000;
+    margin-bottom: 0.8em;
+}
+
+.hand-book .description {
+    width: 47em;
+    margin: 0 auto;
+    
+}
+
+.hand-book .description p{
+    font-size: 1.5em;
+    line-height: 1.9em;
+    margin-bottom: 2em;
+
+}
+
+.hand-book .description p span .add-black{
+    color: #000;
+
+}
+
+.hand-book .more{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+.more a.btn {
+    color: blue;
+    text-decoration: none;
+    background-color:#fff;
+    padding: 1.4% 3%;
+    border-radius: .4em;
+    text-align: center;  
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.hand-book img{
+    margin-top: 2em;
+}
