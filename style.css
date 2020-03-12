@@ -13,7 +13,7 @@ nav {
     margin: 2% auto;
 }
 
-ul {
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -50,9 +50,76 @@ li a {
 .topics {
     border: 3px solid #ffffff;
     border-radius: 4px;
-    padding: 10% 20%;
+    padding: 5px 10px;
 }
 
 .middle_container{
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 50% !important;
+    background-color: #dddbdb;
+    padding-top: 150px;
+    
+}
+
+.card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: 5px solid #fff;
+    transform: rotate(-20deg);
+}
+
+
+
+.card h1{
+    margin-top: 35px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+i{
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.author{
+    font-size: 20px;
+    font-family: "Mija";
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.author span{
+    font-style: italic;
+    
+}
+
+.comment-box{
+    /*margin-top: -20px;*/
+}
+
+.comment{
+    font-size: 20px;
+    font-family: "Mija";
+    margin-top: -15px;
+}
+
+.comment i{
+    font-size: 20px;
+    
+}
+
+.hash-tag{
+    margin-top: 30px;
+}
+
+.hash-tag a{
+  margin-right: 25px;
+  text-decoration: none;
 }
