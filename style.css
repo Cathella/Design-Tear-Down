@@ -60,6 +60,10 @@ li a {
     
 }
 
+.authors-id{
+    display: flex;
+}
+
 .card{
     width: 50% !important;
     background-color: #dddbdb;
