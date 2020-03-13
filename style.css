@@ -296,6 +296,15 @@ article .arrow2 {
   margin-right: 0.7%;
 }
 
+.feautured-book a {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-decoration: none;
+  background: #fff;
+  padding: 2% 4%;
+  border-radius: 0.5em;
+}
+
 .hand-book h2 a {
   font-size: 2em;
   color: #fff;
@@ -323,6 +332,16 @@ article .arrow2 {
 
 .guide p {
   font-size: 0.7em;
+}
+
+.newsletter p {
+  margin: 3% 0;
+  line-height: 1.7em;
+}
+
+.feautured-book p {
+  line-height: 1.5em;
+  margin: 4% 0 6% 0;
 }
 
 .hand-book .description p {
@@ -413,7 +432,6 @@ article .arrow2 {
   margin-bottom: 0.8em;
 }
 
-.feautured-book,
 .guides {
   display: flex;
   width: 95%;
@@ -453,4 +471,36 @@ footer ul li {
   width: 90%;
   margin: 8% auto;
   border-radius: 1em;
+  padding: 2% 0;
+}
+
+.newsletter h2 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.feautured-book {
+  background: #444;
+  display: flex;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.feautured-book div {
+  width: 50%;
+}
+
+.feautured-book h5 {
+  text-transform: uppercase;
+}
+
+.feautured-book h1 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.feautured-book div.image {
+  background: #252525;
+  width: 30%;
+  margin: 0 0 0 15%;
 }
