@@ -411,3 +411,48 @@ article .arrow2{
 .auth-abt p {
     line-height: 1.8em;
 }
+
+.feautured-book,
+.guides {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.newsletter,
+footer {
+    text-align: center;
+}
+
+.newsletter img {
+    width: 20em;
+}
+
+.guide {
+    width: 25%;
+}
+.guide p {
+    font-size: .7em;
+}
+
+.guide h3 {
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+
+.guide ul li {
+    list-style: disc;
+    margin-left: 9%;
+    line-height: 2.6em;
+}
+
+.newsletter {
+    background: #444444;
+    width: 90%;
+    margin: 8% auto;
+    border-radius: 1em;
+}
+
+footer ul li {
+    display: inline;
+}
