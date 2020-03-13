@@ -5,7 +5,7 @@
 }
 
 header {
-  background-color: #333;
+  background-color: #666666;
   overflow: hidden;
 }
 
@@ -28,6 +28,8 @@ nav ul {
 nav li {
   list-style: none;
   text-align: center;
+  background-color: #333333;
+  padding: 1.2%;
 }
 
 .logo img {
@@ -68,7 +70,8 @@ nav li a {
   position: absolute;
   right: 37%;
   top: 24%;
-  background-color: #fff;
+  background-color: #333333;
+  color: whitesmoke;
 }
 
 .middle_container {
@@ -78,7 +81,8 @@ nav li a {
 }
 
 .card {
-  background: #252525;
+  background: #555555;
+  border: 2px solid #666666;
   width: 50%;
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
@@ -96,7 +100,8 @@ nav li a {
 
 .author img {
   width: 3.5em;
-  border: 4px solid #fff;
+  border: 4px solid #333333;
+  background: #333333;
   border-radius: 4px;
   margin-right: 1.5em;
   height: 3.5em;
@@ -179,10 +184,9 @@ article h2 {
 }
 
 article {
-  margin-top: 5%;
-  width: 33%;
-  padding: 0 3%;
-  margin-bottom: 4%;
+  padding: 0.5% 3%;
+  margin: 5% 1.5% 4% 1.5%;
+  background: #ccc;
 }
 
 .article-section-2 article,
@@ -219,7 +223,7 @@ article .arrow2 {
 }
 
 .up-loud {
-  background: #444;
+  background: #555555;
   text-align: center;
   border-radius: 2%;
   padding: 3.5%;
@@ -279,7 +283,7 @@ article .arrow2 {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  background-color: gainsboro;
+  background-color: #777777;
   padding-top: 3em;
 }
 
@@ -412,6 +416,8 @@ article .arrow2 {
   width: 95%;
   margin: 8% auto;
   display: flex;
+  background: #cccccc;
+  padding: 1%;
 }
 
 .prof-pic {
@@ -421,7 +427,8 @@ article .arrow2 {
 .prof-pic img,
 .auth-1 img {
   height: 11.5em;
-  border: 4px solid red;
+  border: 4px solid #333333;
+  background: #333333;
   border-radius: 1em;
 }
 
@@ -440,8 +447,12 @@ article .arrow2 {
 .auth-1 {
   display: flex;
   justify-content: start;
-  width: 50%;
+  width: 48%;
   margin-bottom: 8%;
+  background: #cccccc;
+  padding: 1%;
+  box-sizing: border-box;
+  margin: 0 1% 8% 1%;
 }
 
 .auth-1 img {
@@ -480,6 +491,9 @@ footer {
 
 .guide {
   width: 25%;
+  background: #cccccc;
+  padding: 1%;
+  margin: 0 1%;
 }
 
 .guide h3 {
@@ -535,9 +549,10 @@ form{
 }
 
 .feautured-book {
-  background: #444;
+  background: #555555;
   display: flex;
   padding: 5%;
+  color: whitesmoke;
   margin-bottom: 5%;
 }
 
@@ -555,13 +570,13 @@ form{
 }
 
 .feautured-book div.image {
-  background: #252525;
+  background: #333333;
   width: 30%;
   margin: 0 0 0 15%;
 }
 
 footer{
-    background-color: #444;
+    background-color: #777777;
     padding: 3% 0;
     color: #fff;
 }
