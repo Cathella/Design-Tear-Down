@@ -339,6 +339,37 @@ article .arrow2 {
   line-height: 1.7em;
 }
 
+.newsletter input{
+    
+    height: 4em;
+    border: 1em;
+    border-radius: 0.8em;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius:0 ;
+
+    padding:0 0 0 1em;
+}
+
+.newsletter button{
+    height: 4em;
+    border: 1em;
+    margin-left: 0;
+    padding: 0 2em;
+    border-top-right-radius:0.8em ;
+    border-bottom-right-radius:0.8em ;
+    position: relative;
+    left: -5px;
+    border-left: 1px solid #ccc;
+
+}
+
+.newsletter .tips{
+    color: #fff;
+}
+
+.newsletter p.tips a{
+    color: #fff;
+}
 .feautured-book p {
   line-height: 1.5em;
   margin: 4% 0 6% 0;
@@ -458,12 +489,36 @@ footer {
 
 footer ul li {
   display: inline;
+  list-style: disc;
+  text-decoration: none;
+  margin: 0 1%;
+  font-size: 1.2em;
+}
+
+footer .commitment{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+footer .details{
+    margin: 2% auto;
+    width: 40%;
+}
+
+footer .details a{
+    margin: 0 0.5em;
+    line-height: 2em;
+    font-size: 1em;
 }
 
 .guide ul li {
   list-style: disc;
   margin-left: 9%;
   line-height: 2.6em;
+}
+
+form{
+    margin-top: 3em;
 }
 
 .newsletter {
@@ -503,4 +558,28 @@ footer ul li {
   background: #252525;
   width: 30%;
   margin: 0 0 0 15%;
+}
+
+footer{
+    background-color: #444;
+    padding: 3% 0;
+    color: #fff;
+}
+
+footer h5{
+    text-transform: uppercase;
+    
+}
+footer ul{
+    width: 70%;
+    margin: 2% auto;
+}
+
+footer li{
+    line-height: 2em;
+    list-style-type: circle;
+}
+
+footer a{
+    color: #fff;
 }
