@@ -5,11 +5,11 @@
 }
 
 body {
-  background: #eeeeee;
+  background: #eee;
 }
 
 header {
-  background-color: #666666;
+  background-color: #666;
   overflow: hidden;
 }
 
@@ -32,7 +32,7 @@ nav ul {
 nav li {
   list-style: none;
   text-align: center;
-  background-color: #333333;
+  background-color: #333;
   padding: 1.2%;
 }
 
@@ -40,9 +40,38 @@ nav li {
   width: 10em;
 }
 
+footer a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 nav li a {
   text-decoration: none;
-  color: rgba(255, 255, 255, .5)
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.links a {
+  margin-right: 1em;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.up-loud a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.auth-name a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.feautured-book a {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-decoration: none;
+  background: #333;
+  padding: 2% 4%;
+  border-radius: 0.5em;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .menu-item h3 {
@@ -59,7 +88,7 @@ nav li a {
 }
 
 .topics {
-  border: 3px solid rgba(255, 255, 255, .5);
+  border: 3px solid rgba(255, 255, 255, 0.5);
   border-radius: 4px;
   padding: 5px 10px;
 }
@@ -74,7 +103,7 @@ nav li a {
   position: absolute;
   right: 37%;
   top: 25%;
-  background-color: #ffffff;
+  background-color: #fff;
   color: rgba(0, 0, 0, 0.6);
   padding: 1%;
 }
@@ -87,23 +116,21 @@ nav li a {
 }
 
 .card {
-  background: #555555;
-  border: 4px solid #777777;
+  background: #555;
+  border: 4px solid #777;
   width: 50%;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-
-  /* border: 4px solid grey; */
   border-top: 0;
   box-sizing: border-box;
 }
 
 .img {
-  background: #333333;
+  background: #333;
   padding: 2.5%;
   border-radius: 6px;
   margin-right: 2%;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .author {
@@ -114,8 +141,8 @@ nav li a {
 
 .author img {
   width: 3.5em;
-  border: 4px solid #333333;
-  background: #333333;
+  border: 4px solid #333;
+  background: #333;
   border-radius: 4px;
   margin-right: 1.5em;
   height: 3.5em;
@@ -173,15 +200,8 @@ article h2 {
   margin-right: auto;
 }
 
-.links a {
-  margin-right: 1em;
-  color: rgba(255, 255, 255, .5);
-  font-weight: 700;
-  text-decoration: none;
-}
-
 .links i {
-  color: rgba(255, 255, 255, .5)
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .article-section,
@@ -201,7 +221,7 @@ article {
   padding: 0.5% 3%;
   margin: 2% 1.5% 1% 1.5%;
   background: #ccc;
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .article-section-2 article,
@@ -212,7 +232,7 @@ article {
 
 .date {
   margin: 5px 0;
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 p.author span {
@@ -238,7 +258,7 @@ article .arrow2 {
 }
 
 .up-loud {
-  background: #555555;
+  background: #555;
   text-align: center;
   border-radius: 2%;
   padding: 3.5%;
@@ -255,17 +275,13 @@ article .arrow2 {
   font-size: 2.2em;
   text-decoration: underline;
   margin-top: 1.5%;
-  color: rgba(255, 255, 255, .5)
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .up-loud p {
   margin-top: 3.5%;
   line-height: 2em;
-  color: rgba(255, 255, 255, .5);
-}
-
-.up-loud a {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .explore {
@@ -273,9 +289,9 @@ article .arrow2 {
 }
 
 .up-loud a.btn {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
-  background-color: #333333;
+  background-color: #333;
   padding: 1.7% 3%;
   border-radius: 0.4em;
 }
@@ -294,12 +310,18 @@ article .arrow2 {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.hand-book h2 a {
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0.5em;
+}
+
 /* Handbook styles */
 .hand-book {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  background-color: #777777;
+  background-color: #777;
   padding-top: 3em;
   padding-bottom: 3em;
 }
@@ -313,24 +335,13 @@ article .arrow2 {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.auth-name a {
-  margin-right: 0.7%;
-}
-
-.feautured-book a {
-  font-size: 1.2em;
-  font-weight: 700;
-  text-decoration: none;
-  background: #333333;
-  padding: 2% 4%;
-  border-radius: 0.5em;
-  color: rgba(255, 255, 255, .5);
-}
-
-.hand-book h2 a {
-  font-size: 2em;
+.guide li a {
   color: rgba(0, 0, 0, 0.6);
-  margin-bottom: 0.5em;
+}
+
+.newsletter .tips,
+.newsletter p.tips a {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .hand-book h2.patterns {
@@ -361,30 +372,25 @@ article .arrow2 {
   line-height: 1.7em;
 }
 
-.newsletter input{
-    height: 4em;
-    border: 1em;
-    border-radius: 0.8em;
-    border-top-right-radius:0 ;
-    border-bottom-right-radius:0 ;
-    padding:0 0 0 1em;
+.newsletter input {
+  height: 4em;
+  border: 1em;
+  border-radius: 0.8em;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 0 0 0 1em;
 }
 
-.newsletter button{
-    height: 4em;
-    border: 1em;
-    margin-left: 0;
-    padding: 0 2em;
-    border-top-right-radius:0.8em ;
-    border-bottom-right-radius:0.8em ;
-    position: relative;
-    left: -5px;
-    border-left: 1px solid #ccc;
-}
-
-.newsletter .tips,
-.newsletter p.tips a{
-    color: rgba(255, 255, 255, .5)
+.newsletter button {
+  height: 4em;
+  border: 1em;
+  margin-left: 0;
+  padding: 0 2em;
+  border-top-right-radius: 0.8em;
+  border-bottom-right-radius: 0.8em;
+  position: relative;
+  left: -5px;
+  border-left: 1px solid #ccc;
 }
 
 .feautured-book p {
@@ -408,9 +414,9 @@ article .arrow2 {
 }
 
 .more a.btn {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
-  background-color: #333333;
+  background-color: #333;
   padding: 1.4% 3%;
   border-radius: 0.4em;
   text-align: center;
@@ -424,24 +430,21 @@ article .arrow2 {
   margin-top: 4%;
 }
 
-
-
-/* Community */
 .week-person {
   width: 96%;
   margin: 2% auto;
   display: flex;
-  background: #cccccc;
+  background: #ccc;
   padding: 1%;
   color: rgba(0, 0, 0, 0.6);
 }
 
 .prof-pic {
-  color: rgba(255, 255, 255, .5);
-  background: #333333;
+  color: rgba(255, 255, 255, 0.5);
+  background: #333;
   width: 40em;
   text-align: center;
-  border-radius: .5em;
+  border-radius: 0.5em;
   height: 10em;
   margin: 1.5% 2% 0 1%;
 }
@@ -452,8 +455,8 @@ article .arrow2 {
 
 .auth-1 img {
   height: 11.5em;
-  border: 4px solid #333333;
-  background: #333333;
+  border: 4px solid #333;
+  background: #333;
   border-radius: 1em;
 }
 
@@ -474,10 +477,10 @@ article .arrow2 {
   display: flex;
   justify-content: start;
   width: 49%;
-  background: #cccccc;
+  background: #ccc;
   padding: 1.5%;
   box-sizing: border-box;
-  margin: 0 .5% 1.2% .5%;
+  margin: 0 0.5% 1.2% 0.5%;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -493,10 +496,6 @@ article .arrow2 {
 .auth-name {
   font-weight: 700;
   margin-bottom: 0.9em;
-}
-
-.auth-name a {
-  color: rgba(0, 0, 0, 0.6);
 }
 
 .auth-abt h3 {
@@ -521,9 +520,9 @@ footer {
 
 .guide {
   width: 25%;
-  background: #cccccc;
+  background: #ccc;
   padding: 1%;
-  margin: 0 .8%;
+  margin: 0 0.8%;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -532,8 +531,89 @@ footer {
   margin-bottom: 2%;
 }
 
-.guide li a {
-  color: rgba(0, 0, 0, 0.6);
+footer .commitment {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+footer .details {
+  margin: 2% auto;
+  width: 40%;
+}
+
+form {
+  margin-top: 3em;
+}
+
+.newsletter {
+  background: #444;
+  width: 90%;
+  margin: 6% auto;
+  border-radius: 1em;
+  padding: 2% 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.newsletter h2 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.newsletter .img {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.feautured-book {
+  background: #555;
+  display: flex;
+  padding: 5%;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 5%;
+}
+
+.feautured-book div {
+  width: 50%;
+}
+
+.feautured-book h1 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.feautured-book div.image {
+  background: #333;
+  width: 30%;
+  margin: 0 0 0 15%;
+  text-align: center;
+}
+
+.feautured-book i {
+  margin-top: 10%;
+}
+
+footer {
+  background-color: #777;
+  padding: 3% 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer h5 {
+  text-transform: uppercase;
+}
+
+.feautured-book h5 {
+  text-transform: uppercase;
+}
+
+footer ul {
+  width: 70%;
+  margin: 2% auto;
+}
+
+footer li {
+  line-height: 2em;
+  list-style-type: circle;
 }
 
 footer ul li {
@@ -544,104 +624,8 @@ footer ul li {
   font-size: 1.2em;
 }
 
-footer .commitment{
-    font-size: 1em;
-    line-height: 1.5em;
-}
-
-footer .details{
-    margin: 2% auto;
-    width: 40%;
-}
-
-footer .details a{
-    margin: 0 0.5em;
-    line-height: 2em;
-    font-size: 1em;
-}
-
 .guide ul li {
   list-style: disc;
   margin-left: 9%;
   line-height: 2.6em;
-}
-
-form{
-    margin-top: 3em;
-}
-
-.newsletter {
-  background: #444;
-  width: 90%;
-  margin: 6% auto;
-  border-radius: 1em;
-  padding: 2% 0;
-  color: rgba(255, 255, 255, .5);
-}
-
-.newsletter h2 {
-  font-size: 2em;
-  text-decoration: underline;
-}
-
-.newsletter .img {
-  margin-right: 0;
-  width: 25%;
-  margin: 0 auto;
-}
-
-.feautured-book {
-  background: #555555;
-  display: flex;
-  padding: 5%;
-  color: rgba(255, 255, 255, .5);
-  margin-bottom: 5%;
-}
-
-.feautured-book div {
-  width: 50%;
-}
-
-.feautured-book h5 {
-  text-transform: uppercase;
-}
-
-.feautured-book h1 {
-  font-size: 2em;
-  text-decoration: underline;
-}
-
-.feautured-book div.image {
-  background: #333333;
-  width: 30%;
-  margin: 0 0 0 15%;
-  text-align: center;
-}
-
-.feautured-book i {
-  margin-top: 10%;
-}
-
-footer{
-    background-color: #777777;
-    padding: 3% 0;
-    color: rgba(255, 255, 255, .5)
-}
-
-footer h5{
-    text-transform: uppercase;
-    
-}
-footer ul{
-    width: 70%;
-    margin: 2% auto;
-}
-
-footer li{
-    line-height: 2em;
-    list-style-type: circle;
-}
-
-footer a{
-    color: rgba(255, 255, 255, .5)
 }
