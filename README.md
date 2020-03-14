@@ -12,14 +12,15 @@ Additional description about the project and its features.
 
 - html, css
 - vs code
+- Google fonts
 
 
 
-👤 **Ssegawa Alvin Louis K**
+👤 **Nakitto Catherine**
 
-- Github: [@githubhandle](https://github.com/alvinlouis29)
-- Twitter: [@twitterhandle](https://twitter.com/louisssegawa)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle/alvin-louis-632026183)
+- Github: [@githubhandle](https://github.com/Cathella)
+- Twitter: [@twitterhandle](https://twitter.com/cathella9)
+- Linkedin: [linkedin](https://www.linkedin.com/in/catherine-nakitto-51ba2a40/)
 
 👤 **Adewale kamilu A**
 
