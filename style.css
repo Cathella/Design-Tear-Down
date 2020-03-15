@@ -391,6 +391,9 @@ article .arrow2 {
   position: relative;
   left: -5px;
   border-left: 1px solid #ccc;
+  background: #ccc;
+  color: #333;
+  font-weight: 700;
 }
 
 .feautured-book p {

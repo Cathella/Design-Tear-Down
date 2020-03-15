@@ -1,5 +1,8 @@
 # Positioning and Floating Elements
-This project involves creating ;
+
+![screenshot](./Heatmap.png)
+
+This project involved creating a heatmap for the Smashing Magazine home page basing on what captures your eye when you first visit the page.
 
 Embedding images
 Working with forms (buttons in this case)
