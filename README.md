@@ -2,7 +2,7 @@
 
 ![screenshot](./Heatmap.png)
 
-This project involved creating a heatmap for the [Smashing Magazine home page](https://www.smashingmagazine.com/) basing on what captures your eye when you first visit the page.
+This project involved creating a heatmap for the [Smashing Magazine home page](https://www.smashingmagazine.com/) based on what captures your eyes when you first visit the page.
 
 - We used shades of grey to implement the visibility hierarchy of the page. With the darkest representing an easily seen element versus the lighter ones.
 - We also added a low opacity to the child elements of the parents just to make them blended into the background of the parent elements.
