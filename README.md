@@ -1,15 +1,14 @@
-# Positioning and Floating Elements
+# HTML & CSS - Design Teardown
 
 ![screenshot](./Heatmap.png)
 
-This project involved creating a heatmap for the Smashing Magazine home page basing on what captures your eye when you first visit the page.
+This project involved creating a heatmap for the [Smashing Magazine home page](https://www.smashingmagazine.com/) basing on what captures your eye when you first visit the page.
 
-Embedding images
-Working with forms (buttons in this case)
-Floats and positioning
-The box model
+- We used shades of grey to implement the visibility hierachy of the page. With the darkest representing an easily seen element verses the lighter ones.
+- We also added a low opacity to the child elements of the parents just to make them blended into the background of the parent elements.
 
-Additional description about the project and its features.
+Checkout the our live version of the project [here](https://raw.githack.com/adewaleK/Design-Tear-Down/development/index.html)
+
 
 ## Built With
 
