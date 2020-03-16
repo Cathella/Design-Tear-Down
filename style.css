@@ -85,17 +85,19 @@ nav li {
 
 footer a,
 nav li a,
-.links a,
+.links a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
 .up-loud a,
 .feautured-book a,
 .card,
 .img,
 .links i,
-.up-loud h2,
 .up-loud p,
 .up-loud a.btn,
 .newsletter .tips,
-.newsletter p.tips a,
 .more a.btn,
 .prof-pic,
 .newsletter,
@@ -104,20 +106,20 @@ footer {
   color: rgba(255, 255, 255, 0.5);
 }
 
-nav li a,
-.links a,
 .feautured-book a,
 .up-loud a.btn,
 .see-all a,
-footer a,
-.more a.btn,
-footer ul li {
+.more a.btn {
   text-decoration: none;
 }
 
-links a,
+.date {
+  margin: 5px 0;
+  font-size: 0.7em;
+}
+
+.links a,
 .feautured-book a,
-p.author span,
 .hand-book .date,
 .newsletter button,
 .more a.btn,
@@ -129,21 +131,8 @@ p.author span,
   margin-right: 1em;
 }
 
-.auth-name a,
-.latest h1,
-.see-all a,
-.hand-book h2 a,
-.hand-book .date,
-.guide li a,
-.hand-book h2.patterns,
-.week-person,
-.auth-1,
-.guide {
-  color: rgba(0, 0, 0, 0.6);
-}
-
 .feautured-book a,
-footer ul li {
+footer li {
   font-size: 1.2em;
 }
 
@@ -163,6 +152,17 @@ footer ul li {
   padding: 2% 4%;
 }
 
+.auth-name a,
+.latest h1,
+.see-all a,
+.hand-book .date,
+.hand-book h2.patterns,
+.week-person,
+.auth-1,
+.guide {
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .menu-item h3,
 article .arrow2 {
   font-size: 1em;
@@ -176,7 +176,6 @@ article .arrow2 {
 }
 
 .menu-item p,
-.author p span,
 .commitment span {
   font-style: italic;
 }
@@ -216,8 +215,6 @@ article .arrow2 {
 
 .middle_container,
 .article-section,
-.article-section-2,
-.article-section-3,
 .hand-book,
 .other-authors,
 .guides {
@@ -257,7 +254,6 @@ article .arrow2 {
 }
 
 .links span,
-.date,
 .guide p {
   font-size: 0.7em;
 }
@@ -269,6 +265,7 @@ article .arrow2 {
 
 .author p span {
   margin-left: 0.6em;
+  font-style: italic;
 }
 
 article h2 {
@@ -297,7 +294,6 @@ article h2 {
 
 .arrow i,
 .arrow2 i,
-.hand-book h2 a,
 .newsletter h2,
 .feautured-book h1 {
   font-size: 2em;
@@ -343,12 +339,9 @@ article {
   margin-top: 0;
 }
 
-.date {
-  margin: 5px 0;
-}
-
 p.author span {
   margin-left: 1%;
+  font-weight: 700;
 }
 
 article .author {
@@ -385,7 +378,6 @@ article .arrow2 {
   width: 12em;
 }
 
-.up-loud h2,
 .commitment a,
 .details a,
 .newsletter h2,
@@ -396,6 +388,8 @@ article .arrow2 {
 .up-loud h2 {
   font-size: 2.2em;
   margin-top: 1.5%;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: underline;
 }
 
 .up-loud p,
@@ -440,8 +434,22 @@ footer h5,
   padding-bottom: 0.35%;
 }
 
+.details a {
+  margin: 0 1.5%;
+}
+
 .hand-book h2 a {
+  color: rgba(0, 0, 0, 0.6);
   margin-bottom: 0.5em;
+  font-size: 2em;
+}
+
+.guide li a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.newsletter p.tips a {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .hand-book,
@@ -593,10 +601,6 @@ footer {
   font-size: 0.8em;
 }
 
-.details a {
-  margin: 0 1.5%;
-}
-
 form {
   margin-top: 3em;
 }
@@ -626,7 +630,7 @@ footer ul {
   width: 70%;
 }
 
-footer ul li {
+footer li {
   display: inline;
   margin: 0 1%;
 }
