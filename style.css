@@ -427,14 +427,10 @@ footer li {
   margin: 0 auto 3% auto;
   padding: 0;
   border-radius: 0;
-  border-radius: .8em;
-  padding: 4% 0;
+  border-radius: 0.8em;
+  padding-top: 4%;
+  padding-bottom: 4%;
   max-height: 33em;
-}
-
-#full-up-loud p {
-  width: 50%;
-  margin: 3.5% auto 2% auto;
 }
 
 #full-up-loud .explore {
@@ -550,6 +546,11 @@ footer {
 
 .hand-book .description p {
   line-height: 1.9em;
+}
+
+#full-up-loud p {
+  width: 50%;
+  margin: 3.5% auto 2% auto;
 }
 
 .hand-book .more {
