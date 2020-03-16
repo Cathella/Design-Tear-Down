@@ -27,7 +27,7 @@ footer ul {
 }
 
 .more-pad {
-  padding-top: 10%;
+  padding-top: 13%;
 }
 
 nav ul,
@@ -40,6 +40,7 @@ nav ul,
 .other-authors,
 .auth-1,
 .guides,
+.combine,
 .feautured-book {
   display: flex;
 }
@@ -228,7 +229,6 @@ article .arrow2 {
 }
 
 .card,
-.up-loud,
 .feautured-book div {
   width: 50%;
 }
@@ -325,11 +325,15 @@ article {
   padding: 0.5% 3%;
   margin: 2% 1.5% 1% 1.5%;
   color: rgba(0, 0, 0, 0.5);
+  width: 33%;
+}
+
+article.card {
+  margin: 0;
 }
 
 .article-section-2 article,
 .article-section-3 article,
-.guide,
 .newsletter .img {
   width: 25%;
 }
@@ -361,6 +365,7 @@ article .arrow2 {
   border-radius: 2%;
   padding: 3.5%;
   max-height: 28.5em;
+  width: 66%;
 }
 
 .up-loud .img,
@@ -415,6 +420,25 @@ footer li {
 
 .up-loud a.btn {
   padding: 1.7% 3%;
+}
+
+#full-up-loud {
+  width: 95%;
+  margin: 0 auto 3% auto;
+  padding: 0;
+  border-radius: 0;
+  border-radius: .8em;
+  padding: 4% 0;
+  max-height: 33em;
+}
+
+#full-up-loud p {
+  width: 50%;
+  margin: 3.5% auto 2% auto;
+}
+
+#full-up-loud .explore {
+  margin-top: 4%;
 }
 
 .see-all {
@@ -589,6 +613,16 @@ footer {
 
 .guide {
   margin: 0 0.8%;
+  width: 33%;
+}
+
+.combine {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.combine .guide {
+  margin-top: 6%;
 }
 
 .guide h3 {
@@ -608,7 +642,7 @@ form {
 .newsletter {
   background: #444;
   width: 90%;
-  margin: 6% auto;
+  margin: 6% auto 6% 1%;
   border-radius: 1em;
   padding: 2% 0;
 }
