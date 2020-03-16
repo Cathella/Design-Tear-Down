@@ -4,7 +4,7 @@
 
 This project involved creating a heatmap for the [Smashing Magazine home page](https://www.smashingmagazine.com/) basing on what captures your eye when you first visit the page.
 
-- We used shades of grey to implement the visibility hierachy of the page. With the darkest representing an easily seen element verses the lighter ones.
+- We used shades of grey to implement the visibility hierarchy of the page. With the darkest representing an easily seen element versus the lighter ones.
 - We also added a low opacity to the child elements of the parents just to make them blended into the background of the parent elements.
 
 Checkout the our live version of the project [here](https://raw.githack.com/adewaleK/Design-Tear-Down/development/index.html)
