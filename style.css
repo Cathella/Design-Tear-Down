@@ -1,0 +1,677 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background: #eee;
+}
+
+header {
+  background-color: #666;
+  overflow: hidden;
+}
+
+nav,
+.article-section-2,
+.article-section-3 {
+  width: 95%;
+}
+
+nav,
+.week-person,
+.details,
+footer ul {
+  margin: 2% auto;
+}
+
+.more-pad {
+  padding-top: 13%;
+}
+
+nav ul,
+.middle_container,
+.author,
+.article-section,
+.article-section-2,
+.article-section-3,
+.week-person,
+.other-authors,
+.auth-1,
+.guides,
+.combine,
+.feautured-book {
+  display: flex;
+}
+
+nav ul,
+.middle_container {
+  flex-direction: row;
+}
+
+nav ul,
+.author {
+  align-items: center;
+}
+
+nav ul {
+  justify-content: space-between;
+}
+
+nav li,
+.latest,
+.author img,
+.up-loud,
+.see-all,
+.hand-book,
+.more a.btn,
+.prof-pic,
+.newsletter,
+footer,
+.feautured-book div.image {
+  text-align: center;
+}
+
+nav li,
+.up-loud a.btn,
+.more a.btn {
+  background-color: #333;
+}
+
+nav li {
+  list-style: none;
+  padding: 1.2%;
+}
+
+footer a,
+nav li a,
+.links a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.up-loud a,
+.feautured-book a,
+.card,
+.img,
+.links i,
+.up-loud p,
+.up-loud a.btn,
+.newsletter .tips,
+.more a.btn,
+.prof-pic,
+.newsletter,
+.feautured-book,
+footer {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.feautured-book a,
+.up-loud a.btn,
+.see-all a,
+.more a.btn {
+  text-decoration: none;
+}
+
+.date {
+  margin: 5px 0;
+  font-size: 0.7em;
+}
+
+.links a,
+.feautured-book a,
+.hand-book .date,
+.newsletter button,
+.more a.btn,
+.auth-name {
+  font-weight: 700;
+}
+
+.links a {
+  margin-right: 1em;
+}
+
+.feautured-book a,
+footer li {
+  font-size: 1.2em;
+}
+
+.feautured-book a,
+.img,
+.prof-pic,
+.feautured-book div.image {
+  background: #333;
+}
+
+.feautured-book a,
+.prof-pic {
+  border-radius: 0.5em;
+}
+
+.feautured-book a {
+  padding: 2% 4%;
+}
+
+.auth-name a,
+.latest h1,
+.see-all a,
+.hand-book .date,
+.hand-book h2.patterns,
+.week-person,
+.auth-1,
+.guide {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.menu-item h3,
+article .arrow2 {
+  font-size: 1em;
+}
+
+.menu-item p,
+.see-all a,
+.hand-book .date,
+.commitment {
+  font-size: 0.8em;
+}
+
+.menu-item p,
+.commitment span {
+  font-style: italic;
+}
+
+.menu-icons {
+  height: 2.4em;
+}
+
+.topics {
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.latest {
+  background: transparent;
+}
+
+.latest h1,
+.week-person,
+.guide {
+  padding: 1%;
+}
+
+.latest h1 {
+  text-transform: capitalize;
+  position: absolute;
+  right: 37%;
+  top: 25%;
+  background-color: #fff;
+}
+
+.middle_container,
+.other-authors {
+  flex-wrap: wrap;
+}
+
+.middle_container,
+.article-section,
+.hand-book,
+.other-authors,
+.guides {
+  width: 100%;
+}
+
+.card,
+.up-loud,
+.feautured-book {
+  background: #555;
+}
+
+.card,
+.feautured-book div {
+  width: 50%;
+}
+
+.card,
+.auth-1 {
+  box-sizing: border-box;
+}
+
+.card {
+  border: 4px solid #777;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.img {
+  padding: 2.5%;
+  border-radius: 6px;
+  margin-right: 2%;
+}
+
+.author {
+  margin-top: 7%;
+}
+
+.links span,
+.guide p {
+  font-size: 0.7em;
+}
+
+.links span {
+  margin-left: 0.5em;
+  margin-bottom: 10%;
+}
+
+.author p span {
+  margin-left: 0.6em;
+  font-style: italic;
+}
+
+article h2 {
+  margin: 10px 0 20px 0;
+}
+
+.card h2 {
+  margin: 4% 0;
+  font-size: 1.8em;
+}
+
+.card h2 span {
+  font-size: 0.5em;
+  margin-left: 1em;
+}
+
+.arrow,
+.feautured-book {
+  margin-bottom: 5%;
+}
+
+.arrow,
+.feautured-book i {
+  margin-top: 10%;
+}
+
+.arrow i,
+.arrow2 i,
+.newsletter h2,
+.feautured-book h1 {
+  font-size: 2em;
+}
+
+.card h2,
+.author,
+.arrow,
+.links {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-section-2,
+.article-section-3 {
+  margin: 3.5% auto;
+}
+
+article,
+.newsletter button,
+.week-person,
+.auth-1,
+.guide {
+  background: #ccc;
+}
+
+article {
+  padding: 0.5% 3%;
+  margin: 2% 1.5% 1% 1.5%;
+  color: rgba(0, 0, 0, 0.5);
+  width: 33%;
+}
+
+article.card {
+  margin: 0;
+}
+
+.article-section-2 article,
+.article-section-3 article,
+.newsletter .img {
+  width: 25%;
+}
+
+.article-section-2 article,
+.article-section-3 article {
+  margin-top: 0;
+}
+
+p.author span {
+  margin-left: 1%;
+  font-weight: 700;
+}
+
+article .author {
+  margin: 10px 0;
+}
+
+article .text,
+.auth-abt p {
+  line-height: 1.8em;
+}
+
+article .arrow2 {
+  margin-top: 4em;
+}
+
+.up-loud {
+  border-radius: 2%;
+  padding: 3.5%;
+  max-height: 28.5em;
+  width: 66%;
+}
+
+.up-loud .img,
+.hand-book,
+.hand-book .description,
+.hand-book .more,
+.hand-book .img,
+.other-authors,
+.guides,
+.newsletter .img {
+  margin: 0 auto;
+}
+
+.up-loud .img {
+  width: 12em;
+}
+
+.commitment a,
+.details a,
+.newsletter h2,
+.feautured-book h1 {
+  text-decoration: underline;
+}
+
+.up-loud h2 {
+  font-size: 2.2em;
+  margin-top: 1.5%;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: underline;
+}
+
+.up-loud p,
+.prof-content p,
+.commitment,
+footer li {
+  line-height: 2em;
+}
+
+.up-loud p {
+  margin-top: 3.5%;
+}
+
+.explore {
+  margin-top: 8%;
+}
+
+.up-loud a.btn,
+.more a.btn,
+.auth-1 .img {
+  border-radius: 0.4em;
+}
+
+.up-loud a.btn {
+  padding: 1.7% 3%;
+}
+
+#full-up-loud {
+  width: 95%;
+  margin: 0 auto 3% auto;
+  padding: 0;
+  border-radius: 0;
+  border-radius: 0.8em;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  max-height: 33em;
+}
+
+#full-up-loud .explore {
+  margin-top: 4%;
+}
+
+.see-all {
+  margin-bottom: 4%;
+}
+
+.see-all a,
+.hand-book .date,
+.prof-content h4,
+footer h5,
+.feautured-book h5 {
+  text-transform: uppercase;
+}
+
+.see-all a {
+  border-bottom: 4px solid rgba(0, 0, 0, 0.25);
+  padding-bottom: 0.35%;
+}
+
+.details a {
+  margin: 0 1.5%;
+}
+
+.hand-book h2 a {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0.5em;
+  font-size: 2em;
+}
+
+.guide li a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.newsletter p.tips a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hand-book,
+footer {
+  background-color: #777;
+}
+
+.hand-book {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.hand-book .date {
+  letter-spacing: 2px;
+  margin: 2em 0;
+}
+
+.hand-book h2.patterns,
+.auth-abt h3 {
+  margin-bottom: 0.8em;
+}
+
+.hand-book h2.patterns {
+  font-size: 3em;
+}
+
+.hand-book .description {
+  width: 47em;
+}
+
+.newsletter p {
+  margin: 3% 0;
+  line-height: 1.7em;
+}
+
+.newsletter input,
+.newsletter button {
+  height: 4em;
+  border: 1em;
+}
+
+.newsletter input {
+  border-radius: 0.8em;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 0 0 0 1em;
+}
+
+.newsletter button {
+  margin-left: 0;
+  padding: 0 2em;
+  border-top-right-radius: 0.8em;
+  border-bottom-right-radius: 0.8em;
+  position: relative;
+  left: -5px;
+  border-left: 1px solid #ccc;
+  color: #333;
+}
+
+.feautured-book p {
+  line-height: 1.5em;
+  margin: 4% 0 6% 0;
+}
+
+.hand-book .description p,
+.guide h3 {
+  font-size: 1.5em;
+}
+
+.hand-book .description p,
+.prof-content h4 {
+  margin-bottom: 2em;
+}
+
+.hand-book .description p {
+  line-height: 1.9em;
+}
+
+#full-up-loud p {
+  width: 50%;
+  margin: 3.5% auto 2% auto;
+}
+
+.hand-book .more {
+  margin-bottom: 20px;
+}
+
+.more a.btn {
+  padding: 1.4% 3%;
+  font-size: 1.4em;
+}
+
+.hand-book .img {
+  width: 20%;
+  margin-top: 4%;
+}
+
+.week-person {
+  width: 96%;
+}
+
+.prof-pic {
+  width: 40em;
+  height: 10em;
+  margin: 1.5% 2% 0 1%;
+}
+
+.prof-pic i {
+  margin-top: 25%;
+}
+
+.other-authors {
+  margin-bottom: 3%;
+}
+
+.auth-1 {
+  justify-content: start;
+  width: 49%;
+  padding: 1.5%;
+  margin: 0 0.5% 1.2% 0.5%;
+}
+
+.auth-1 .img {
+  height: 2.1em;
+}
+
+.auth-abt {
+  margin: 0 0 0 2%;
+}
+
+.auth-name {
+  margin-bottom: 0.9em;
+}
+
+.auth-abt h3 {
+  font-size: 1.6em;
+}
+
+.newsletter img {
+  width: 20em;
+}
+
+.guide {
+  margin: 0 0.8%;
+  width: 33%;
+}
+
+.combine {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.combine .guide {
+  margin-top: 6%;
+}
+
+.guide h3 {
+  margin-bottom: 2%;
+}
+
+.details {
+  width: 33%;
+  line-height: 2.5em;
+  font-size: 0.8em;
+}
+
+form {
+  margin-top: 3em;
+}
+
+.newsletter {
+  background: #444;
+  width: 90%;
+  margin: 6% auto 6% 1%;
+  border-radius: 1em;
+  padding: 2% 0;
+}
+
+.feautured-book {
+  padding: 5%;
+}
+
+.feautured-book div.image {
+  width: 30%;
+  margin: 0 0 0 15%;
+}
+
+footer {
+  padding: 3% 0;
+}
+
+footer ul {
+  width: 70%;
+}
+
+footer li {
+  display: inline;
+  margin: 0 1%;
+}
+
+.guide ul li {
+  list-style: disc;
+  margin-left: 9%;
+  line-height: 2.6em;
+}
